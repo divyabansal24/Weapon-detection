@@ -1,70 +1,17 @@
-#Weapon Detection using OpenCV
+# 🔫 Weapon Detection using OpenCV  
 
-##📌 Overview
+## 📌 Overview  
+This project implements **weapon detection** using OpenCV and a Haar cascade classifier. It processes video frames from a webcam, detects objects (currently using a face cascade as a placeholder), and highlights detected regions.
 
-This project implements a Weapon Detection System using OpenCV and Python. The program captures real-time video from a webcam and uses a Haar cascade classifier to detect objects. Currently, it is set to detect faces (as a placeholder for weapon detection).
+## 🛠 Features  
+- 🎥 **Real-time video processing**  
+- 🔍 **Object detection using Haar cascades**  
+- 🚨 **Alerts if a weapon is detected** (currently using face detection as a test)  
 
-##🚀 Features
+## 🔧 Requirements  
+Make sure you have the following installed before running the project:  
 
-Real-time object detection using OpenCV
+- **Python 3.x**  
+- **OpenCV** (`cv2`)  
+- **Imutils**  
 
-Webcam-based live feed processing
-
-Highlights detected objects with a bounding box
-
-Displays detection status in the terminal
-
-##🛠️ Requirements
-
-Ensure you have the following installed:
-
-Python 3.x
-
-OpenCV (opencv-python)
-
-Imutils (imutils)
-
-NumPy (numpy)
-
-##📥 Installation
-
-Clone the repository and install the required dependencies:
-
-# Clone this repository
-git clone https://github.com/divyabansal24/WeaponDetection.git
-cd WeaponDetection
-
-# Install dependencies
-pip install opencv-python imutils numpy
-
-▶️ Usage
-
-Run the script to start the weapon detection system:
-
-python weapon_detection.py
-
-Press 'q' to exit the program.
-
-##📝 Code Explanation
-
-Captures video from the webcam using OpenCV.
-
-Converts frames to grayscale for better processing.
-
-Uses a Haar cascade classifier (haarcascade_frontalface_default.xml) to detect objects.
-
-Draws a bounding box around detected objects.
-
-Displays real-time feed with detected objects highlighted.
-
-##🔧 Future Improvements
-
-Train a custom cascade classifier for actual weapon detection.
-
-Implement deep learning-based detection (e.g., YOLO, SSD, or Faster R-CNN).
-
-Add alert mechanisms when a weapon is detected.
-
-##🤝 Contributing
-
-Feel free to fork this repository and submit pull requests for improvements!
